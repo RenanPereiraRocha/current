@@ -1,0 +1,28 @@
+2022-04-29 20:54:02,471 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-04-29 20:54:02,473 INFO supervisord started with pid 1
+2022-04-29 20:54:03,476 INFO spawned: 'application' with pid 12
+2022-04-29 20:54:03,478 INFO spawned: 'sshd' with pid 13
+2022-04-29 20:54:05,288 INFO success: application entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-29 20:54:05,288 INFO success: sshd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-29 20:57:49,520 INFO reaped unknown pid 33
+2022-04-29 21:01:02,329 INFO reaped unknown pid 35
+2022-04-29 21:08:12,306 WARN received SIGTERM indicating exit request
+2022-04-29 21:08:12,307 INFO waiting for application, sshd to die
+2022-04-29 21:08:12,308 INFO stopped: sshd (exit status 0)
+2022-04-29 21:08:12,315 INFO stopped: application (terminated by SIGTERM)
+2022-04-29 21:08:31,084 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-04-29 21:08:31,086 INFO supervisord started with pid 1
+2022-04-29 21:08:32,089 INFO spawned: 'application' with pid 10
+2022-04-29 21:08:32,091 INFO spawned: 'sshd' with pid 11
+2022-04-29 21:08:33,890 INFO success: application entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-29 21:08:33,890 INFO success: sshd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-29 21:09:10,783 WARN received SIGTERM indicating exit request
+2022-04-29 21:09:10,783 INFO waiting for application, sshd to die
+2022-04-29 21:09:10,785 INFO stopped: sshd (exit status 0)
+2022-04-29 21:09:10,790 INFO stopped: application (terminated by SIGTERM)
+2022-04-29 21:09:29,576 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-04-29 21:09:29,580 INFO supervisord started with pid 1
+2022-04-29 21:09:30,583 INFO spawned: 'application' with pid 10
+2022-04-29 21:09:30,585 INFO spawned: 'sshd' with pid 11
+2022-04-29 21:09:32,367 INFO success: application entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-29 21:09:32,367 INFO success: sshd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)

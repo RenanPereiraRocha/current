@@ -1,0 +1,26 @@
+{
+  "name": "rntecinfo",
+  "version": "1.0.0",
+  "description": "Programação",
+  "main": "index.js",
+  "scripts": {
+    "start": "yarn install && next build && next start",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next dev",
+    "build": "next build",
+    "lint": "next lint"
+  },
+  "keywords": [
+    "express",
+    "hello-world"
+  ],
+  "author": "Christopher",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "express": "^4.16.4",
+    "next": "^12.1.5",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  }
+}
