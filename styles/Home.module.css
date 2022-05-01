@@ -28,24 +28,24 @@
   flex-grow: 1;
 }
 
-.titulo a {
+.title a {
   color: #0070f3;
   text-decoration: none;
 }
 
-.titulo a:hover,
-.titulo a:focus,
-.titulo a:active {
+.title a:hover,
+.title a:focus,
+.title a:active {
   text-decoration: underline;
 }
 
-.titulo {
+.title {
   margin: 0;
   line-height: 1.15;
   font-size: 4rem;
 }
 
-.titulo,
+.title,
 .description {
   text-align: center;
 }
