@@ -1,7 +1,7 @@
 import Menu from "../components/Menu";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-function Inicio() {
+function Projetos() {
 return (
 <div>
 <Menu></Menu>
@@ -9,4 +9,4 @@ return (
 );  
 } 
 
-export default Inicio
+export default Projetos

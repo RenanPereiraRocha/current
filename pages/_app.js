@@ -1,7 +1,12 @@
 import '../styles/globals.css'
+import variables from '../styles/variables.module.scss'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import React from 'react';
 
-function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+export default function MyApp({ Component, pageProps }) {
+  return (
+    <Layout color={variables.primaryColor}>
+      <Component {...pageProps} />
+    </Layout>
+  )
 }
-
-export default MyApp

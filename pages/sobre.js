@@ -1,12 +1,12 @@
 import Menu from "../components/Menu";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-function Inicio() {
+function Sobre() {
 return (
 <div>
 <Menu></Menu>
-</div>
+ </div>
 );  
 } 
 
-export default Inicio
+export default Sobre
