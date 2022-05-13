@@ -1,0 +1,30 @@
+
+$cor-primaria: #000064 !important;
+$cor-secundaria: #01369b !important;
+$branco: white !important;
+$preto: rgb(32, 32, 32) !important;
+$cinza: grey !important;
+
+.botao {
+  font-family: 'Source Sans Pro', sans-serif !important;
+  color: $branco;
+  background-color: $cor-secundaria;
+  font-size: 13px;
+
+}
+.botao:hover{
+  color: $cor-secundaria;
+  background: $branco;
+  font-weight: 600;
+  border: $cor-secundaria 2px 2px 2px;
+}
+.smenu{
+  color: $preto;
+  font-weight: 600;
+  font-size: 13px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.smenu:hover{
+color: $branco;
+background: $cor-primaria;
+}

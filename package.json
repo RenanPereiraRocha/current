@@ -4,42 +4,41 @@
     "description": "site portifólio  rntecinfo.com.br",
     "main": "index.js",
     "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1",
-      "dev": "next dev",
-      "build": "next build",
-      "start": "next start",
-      "lint": "next lint"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint"
     },
     "keywords": [
-      "next.js, site em next.js"
+        "next.js, site em next.js"
     ],
     "author": "https://www.facebook.com/renanrochatecnologia/",
     "license": "ISC",
     "repository": {
-      "type": "git",
-      "url": "git+https://github.com/RenanPereiraRocha/rntecinfo.git"
+        "type": "git",
+        "url": "git+https://github.com/RenanPereiraRocha/rntecinfo.git"
     },
     "bugs": {
-      "url": "https://github.com/RenanPereiraRocha/rntecinfo/issues"
+        "url": "https://github.com/RenanPereiraRocha/rntecinfo/issues"
     },
     "homepage": "https://github.com/RenanPereiraRocha/rntecinfo#readme",
     "dependencies": {
-      "@fortawesome/fontawesome-svg-core": "^6.1.1",
-      "@fortawesome/free-regular-svg-icons": "^6.1.1",
-      "@fortawesome/free-solid-svg-icons": "^6.1.1",
-      "@fortawesome/react-fontawesome": "^0.1.18",
-      "@popperjs/core": "^2.11.5",
-      "bootstrap": "^5.1.3",
-      "next": "latest",
-      "react": "^18.1.0",
-      "react-dom": "^18.1.0",
-      "reactstrap": "^9.0.2",
-      "typescript": "^4.6.4"
+        "@fortawesome/fontawesome-svg-core": "^6.1.1",
+        "@fortawesome/free-regular-svg-icons": "^6.1.1",
+        "@fortawesome/free-solid-svg-icons": "^6.1.1",
+        "@fortawesome/react-fontawesome": "^0.1.18",
+        "@popperjs/core": "^2.11.5",
+        "bootstrap": "^5.1.3",
+        "next": "latest",
+        "react": "^17.0.2",
+        "react-bootstrap": "^2.3.1",
+        "react-dom": "17.0.0", 
+        "typescript": "^4.6.4"
     },
     "devDependencies": {
-      "eslint": "8.14.0",
-      "eslint-config-next": "12.1.6",
-      "sass": "^1.51.0"
+        "eslint": "8.14.0",
+        "eslint-config-next": "12.1.6",
+        "sass": "^1.51.0"
     }
-  }
-  
+}
