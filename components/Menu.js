@@ -8,7 +8,6 @@ import '@fortawesome/fontawesome-svg-core/styles.css';
 import profilePic from '../public/logo.webp';
 import styles from '../styles/Home.module.scss';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
 library.add(fas)
 
 const Menu = () => {  

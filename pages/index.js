@@ -1,9 +1,10 @@
-import Menu from "../components/Menu";
+import Menu from "../components/menu";
 import Head from "next/head";
 import Image from 'next/image'
 import profilePic from '../public/informatica-e-tecnologia.png'
 import { Container, Row, Col, Button } from 'react-bootstrap';
 import React from 'react';
+import Footer from "../components/rodape"
 
 function Inicio() {
   return (
@@ -15,22 +16,8 @@ function Inicio() {
         <meta name="email" content="contato@rntecinfo.com.br" />
         <meta name="website" content="https://www.rntecinfo.com.br" />
       </Head>
-      <Menu />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <Container >
+      <Menu /> 
+      <Container className="p-4">
         <Row xs="2">
           <Col>
             <>
@@ -43,6 +30,7 @@ function Inicio() {
           </Col>
         </Row>
       </Container>
+      <Footer></Footer>
     </div>
 
   );

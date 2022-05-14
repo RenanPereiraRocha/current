@@ -4,6 +4,7 @@ $cor-secundaria: #01369b !important;
 $branco: white !important;
 $preto: rgb(32, 32, 32) !important;
 $cinza: grey !important;
+$branco-acinzentado: #D8D8D8 !important;
 
 .botao {
   font-family: 'Source Sans Pro', sans-serif !important;
@@ -27,4 +28,28 @@ $cinza: grey !important;
 .smenu:hover{
 color: $branco;
 background: $cor-primaria;
+}
+.rodape{
+  background: $cor-primaria;
+  color: $branco-acinzentado;
+  padding: 2%;
+  font-family: 'Source Sans Pro', sans-serif;
+
+}
+.icones{
+  color: $branco-acinzentado;
+}
+.icones:hover{
+  color: $branco;
+  background: $cor-secundaria;
+}
+.titulo{
+  color: $branco;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.rdescricao{
+  color: $branco-acinzentado;
+}
+.rdescricao:hover{
+  color: $branco;
 }

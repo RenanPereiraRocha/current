@@ -1,9 +1,11 @@
 import Menu from "../components/Menu";
+import Footer from "../components/rodape"
 
 function Sobre() {
 return (
 <div>
-<Menu></Menu>
+<Menu />
+<Footer/>
  </div>
 );  
 } 
