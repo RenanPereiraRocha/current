@@ -4,7 +4,8 @@ $cor-secundaria: #01369b !important;
 $branco: white !important;
 $preto: rgb(32, 32, 32) !important;
 $cinza: grey !important;
-$branco-acinzentado: #D8D8D8 !important;
+$branco-acinzentado: #d4d4d4 !important;
+$transparencia: rgba(255, 255, 255, 0) !important;
 
 .botao {
   font-family: 'Source Sans Pro', sans-serif !important;
@@ -15,15 +16,20 @@ $branco-acinzentado: #D8D8D8 !important;
 }
 .botao:hover{
   color: $cor-secundaria;
-  background: $branco;
+  background: $transparencia;
   font-weight: 600;
-  border: $cor-secundaria 2px 2px 2px;
+  border: $cor-secundaria 2pt;
+  box-shadow: 2px 2px 4px $preto;
+}
+.menu{
+  background: red !important;
 }
 .smenu{
   color: $preto;
   font-weight: 600;
   font-size: 13px;
   font-family: 'Source Sans Pro', sans-serif;
+  margin-top: 2%;
 }
 .smenu:hover{
 color: $branco;
@@ -43,13 +49,127 @@ background: $cor-primaria;
   color: $branco;
   background: $cor-secundaria;
 }
-.titulo{
+.rtitulo{
   color: $branco;
   font-family: 'Source Sans Pro', sans-serif;
+  text-shadow: 2px 2px 4px $preto;
+  margin: 2%;
+}
+.subtitulo{
+  color: $branco-acinzentado;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
+}
+.titulocolorido{
+  color: $cor-primaria;
 }
 .rdescricao{
   color: $branco-acinzentado;
 }
-.rdescricao:hover{
+.descricao{
+  color: $cinza;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.secao{
+  padding-top: 100px;
+  padding-bottom: 50px;
+
+}
+.servico{
+  text-align: center;
+  padding: 4%;
+}
+.banne{
   color: $branco;
+ background-image: linear-gradient(rgba(0, 0, 0, 0.171), rgba(0, 0, 0, 0.589)), url("/comunicacao.jpg");
+ background-size: auto;
+ background-repeat: no-repeat;
+ background-position: center center;
+ height: 400px;
+
+}
+.btitulo{
+  text-align: center ;
+  padding-top: 10%;
+}
+.titulo{
+  padding: 10px;
+  text-align: center;
+}
+.tabtitulo{
+  color: $preto !important;
+  font-weight: 600;
+  border: $cor-primaria !important;
+}
+.tabtitulo:hover{
+  color: $branco !important;
+  border: $cor-primaria !important;
+  background: $cor-primaria !important;
+}
+.tabtitulo:active{
+  color: $branco !important;
+  border: $cor-primaria !important;
+  background: $cor-primaria !important;
+}
+.uso{
+  margin: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  box-shadow: 0 0 3px rgb(60 72 88 / 15%) !important;
+  border-radius: 6px !important;
+  font-weight: 600;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.icone{
+ border: 2px $cinza;
+ border-radius: 50%;
+ padding: 5%;
+ background: linear-gradient(45deg, transparent, rgba(47, 85, 212, 0.15));
+}
+.portifolio{
+ text-align: center;
+ background: rgb(236, 236, 236) !important;
+}
+.medicipat{
+ color: $branco;
+ text-shadow: $preto 2px 2px 4px !important;
+ filter: drop-shadow(10px 10px 4px #707070);
+ margin: 5px !important;
+ border-radius: 10px !important;
+ border: 2px 2px $preto !important;
+ height: 280px;
+}
+.comcipa{
+  color: $branco;
+  text-shadow: $preto 2px 2px 4px !important;
+  filter: drop-shadow(10px 10px 4px #707070);
+  margin: 5px !important;
+  border-radius: 10px !important;
+  border: 2px 2px $preto !important;
+  height: 280px;
+}
+.rwr{
+  color: $branco;
+  text-shadow: $preto 2px 2px 4px !important;
+  filter: drop-shadow(10px 10px 4px #707070);
+  margin: 5px !important;
+  border-radius: 10px !important;
+  border: 2px 2px $preto !important;
+  height: 280px;
+}
+.logomarca{
+  color: $preto !important;
+  filter: drop-shadow(10px 10px 4px #707070);
+  margin: 5px !important;
+  border-radius: 10px !important;
+  border: 2px 2px $preto !important;
+  height: 280px;
+}
+.imagemc{
+ border-radius: 50% !important;
+ padding: 5%;
+ max-width: 167px;
+ height: 166px;
+ align-self: center !important;
+ filter: drop-shadow(2px 2px 4px #70707085);
 }

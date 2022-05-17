@@ -1,13 +1,19 @@
 import Menu from "../components/Menu";
 import Footer from "../components/rodape"
+import 'bootstrap/dist/css/bootstrap.min.css';
+import '@fortawesome/fontawesome-svg-core/styles.css';
+import styles from '../styles/Home.module.scss';
 
-function Projetos() {
+export default function Projetos(){
 return (
-<div>
-<Menu />
-<Footer/>
- </div>
-);  
-} 
+    <main>
+    <section className={styles.secao}>
+        <Menu />
+    </section>
+    <section className={styles.secao}>
+        <Footer/>
+    </section>
+</main>
 
-export default Projetos
+);  
+};
